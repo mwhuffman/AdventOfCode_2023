@@ -64,8 +64,8 @@ foreach my $game (@time_array) {
     print "ways: $ways\n";
 }
 
-print "total: $total_ways[0] $total_ways[1] $total_ways[2] $total_ways[3]\n";
+print "totals: $total_ways[0] $total_ways[1] $total_ways[2] $total_ways[3]\n";
 
 my $total = $total_ways[0] * $total_ways[1] * $total_ways[2] * $total_ways[3];
 
-print "total: $total\n";
+print "total ways: $total\n";
